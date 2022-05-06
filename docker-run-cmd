@@ -1,0 +1,1 @@
+docker run -d --name=portainer_ce --restart always -v /volume/docker/portainer_ce/data:/data -v /var/run/docker.sock:/var/run/docker.sock -p 9000:9000 --pid=host portainer/portainer-ce:latest
